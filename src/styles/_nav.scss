@@ -1,0 +1,48 @@
+nav {
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex: 3;
+
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+  align-items: center;
+
+  .logo {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .search {
+    display: flex;
+    width: 90%;
+
+    input,
+    button {
+      padding: 0.25rem;
+      border: 1.75px solid rgb(150, 149, 149);
+      line-height: 1.7rem;
+    }
+    input {
+      border-radius: 10px 0px 0px 10px;
+      margin: 0px 0px 0px 5rem;
+      width: 75%;
+    }
+    button {
+      background-color: rgb(216, 216, 216);
+      width: 12%;
+      border-radius: 0% 10px 10px 0;
+      color: black;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+  }
+}
