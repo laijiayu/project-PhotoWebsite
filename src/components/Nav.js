@@ -11,7 +11,7 @@ const Nav = ({ search, setInput }) => {
         <img src="https://img.icons8.com/color/48/000000/pinterest--v1.png" />
       </div>
       <div className="search">
-        <input onChange={inputHandler} type="text" placeholder="search" />
+        <input onChange={inputHandler} type="text" placeholder="text" />
         <button onClick={search}>search</button>
       </div>
       <ul>
